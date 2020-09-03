@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import symbols from './assests/sym.env'
 
 function App() {
+
+  console.log(symbols)
+
   return (
     <div className="App">
       <header className="App-header">
