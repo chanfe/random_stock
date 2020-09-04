@@ -10,7 +10,9 @@ for num in range(len(Lines)):
         continue
     sym.append(Lines[num].split('|')[0])
 
-string = "symbols=[" + ', '.join(sym) + "]"
+    
+
+string = "symbols=[" + (', '.join('"' + item + '"' for item in sym)) + "]"
 
 file_write.write(string)
 file_read.close

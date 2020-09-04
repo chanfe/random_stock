@@ -1,28 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import symbols from './assests/sym.env'
+import symbols from './assests/sym.js'
 
 function App() {
 
-  console.log(symbols)
+
+  const random_symbol = symbols[Math.floor(Math.random() * symbols.length)]
+
+  const button_pressed = (e) => {
+    window.location.reload();
+  }
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>{random_symbol}</h1>
+        <button onClick={button_pressed}>Generate random Nasdaq Symbol</button>
       </header>
+      
     </div>
   );
 }
