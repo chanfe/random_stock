@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import symbols from './assests/sym.js'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>{random_symbol}</h1>
-        <button onClick={button_pressed}>Generate random Nasdaq Symbol</button>
+        <button onClick={button_pressed}>Generate random <span>Nasdaq Symbol</span></button>
         <br />
         <a href={"https://robinhood.com/stocks/" + random_symbol}>Robinhood</a>
         <a href={"https://finance.yahoo.com/quote/" + random_symbol}>Yahoo</a>
