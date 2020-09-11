@@ -106,6 +106,7 @@ button {
       transform 0.4s 0.5s;
   }
   &:hover {
+    cursor: pointer;
     text-indent: 0;
     background: #55706D;
     color: #FFE8A3;
@@ -116,5 +117,32 @@ button {
       transform: translateX(0);
       opacity: 1;
     }
+  }
+}
+
+.Footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  padding-bottom:30px;
+  color:white;
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.stocklink {
+  color:white;
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 }

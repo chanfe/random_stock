@@ -15,12 +15,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>{random_symbol}</h1>
-        <button onClick={button_pressed}>Generate random <span>Nasdaq Symbol</span></button>
+        <span className="stocklink">
+          <a href={"https://robinhood.com/stocks/" + random_symbol}>Robinhood</a> | 
+          <a href={"https://finance.yahoo.com/quote/" + random_symbol}>Yahoo</a>
+        </span>
         <br />
-        <a href={"https://robinhood.com/stocks/" + random_symbol}>Robinhood</a>
-        <a href={"https://finance.yahoo.com/quote/" + random_symbol}>Yahoo</a>
+        <button onClick={button_pressed}>Generate random <span>Nasdaq Symbol</span></button>
       </header>
-      
+      <div className="Footer">
+        Made by <a href="https://github.com/chanfe">chanfe</a>
+      </div>
     </div>
   );
 }
