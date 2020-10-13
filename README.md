@@ -1,68 +1,146 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for build-url, contributors-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Build Status][build-shield]][build-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]][license-url]
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/chanfe/random_stock/">
+    <img src="#" alt="Logo" width="80" height="80">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center">random_stock</h3>
 
-### `yarn start`
+  <p align="center">
+    Logs
+    <br />
+    <a href="https://github.com/chanfe/random_stock"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/chanfe/random_stock">View Demo</a> (Needs link)
+    ·
+    <a href="https://github.com/chanfe/random_stock/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/chanfe/random_stock/issues">Request Feature</a>
+  </p>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  - [Table of Contents](#Table-of-Contents)
+  - [About The Project](#About-The-Project)
+  - [Built With](#Built-With)
+  - [Mock up of the application (to be)](#Mock-up-of-the-application-to-be)
+  - [Prerequisites](#Prerequisites)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Roadmap](#Roadmap)
+  - [Contributing](#Contributing)
+  - [License](#License)
+  - [Contact](#Contact)
+  - [Acknowledgements](#Acknowledgements)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a random stock generator and when press it output a random stock symbol.  Yahoo and robinhood is there if you like more info about the stock.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built With
+  - [ReactJS](https://reactjs.org)
+  - [Sass](https://sass-lang.com/)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- MockUp of the Application (to be removed) -->
+## Mock up of the application (to be)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![]()
+![]()
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prerequisites
+1. 
+```
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
+1. Clone the repo
+```sh
+git clone https:://github.com/your_username_/Project-Name.git
+```
+2. Install NPM packages
+```sh
+npm install
+```
+3. Start local website
+```sh
+npm start
+```
 
-## Learn More
+<!-- USAGE EXAMPLES -->
+## Usage
+Click on the button to output a random stock from the list.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- ROADMAP -->
+## Roadmap
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+<!-- CONTRIBUTING -->
+## Contributing
 
-### Making a Progressive Web App
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+<!-- LICENSE -->
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### `yarn build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+<!-- CONTACT -->
+## Contact
+
+[Felix Chan](https://github.com/chanfe)
+
+Project Link: [https://github.com/chanfe/random_stock](https://github.com/chanfe/random_stock)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
+[build-url]: #
+[contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
+[contributors-url]: https://github.com/chingu-voyages/v10-bears-team-03/graphs/contributors
+[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
+[license-url]: https://choosealicense.com/licenses/mit
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[product-screenshot]: https://i.imgur.com/Jfnx1uj.png
