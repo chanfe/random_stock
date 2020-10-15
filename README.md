@@ -25,7 +25,7 @@
     <a href="https://github.com/chanfe/random_stock"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/chanfe/random_stock">View Demo</a> (Needs link)
+    <a href="https://random-stock.herokuapp.com">View Demo</a> 
     ·
     <a href="https://github.com/chanfe/random_stock/issues">Report Bug</a>
     ·
