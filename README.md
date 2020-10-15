@@ -63,7 +63,7 @@ This is a random stock generator and when press it output a random stock symbol.
 
 
 <!-- MockUp of the Application (to be removed) -->
-## Mock up of the application (to be)
+## Mock up of the application
 
 ![]()
 ![]()
