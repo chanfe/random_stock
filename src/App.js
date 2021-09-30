@@ -16,7 +16,7 @@ function App() {
       <header className="App-header">
         <h1>{random_symbol}</h1>
         <span className="stocklink">
-          <a href={"https://robinhood.com/stocks/" + random_symbol}>Robinhood</a> | 
+          <a href={"https://robinhood.com/stocks/" + random_symbol}>Robinhood</a> |&nbsp;
           <a href={"https://finance.yahoo.com/quote/" + random_symbol}>Yahoo</a>
         </span>
         <br />
